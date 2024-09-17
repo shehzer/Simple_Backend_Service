@@ -11,7 +11,7 @@ const expressSanitizer = require('express-sanitizer');
 var data = require('./data.json');
 const PORT = 4000;
 //Setup serving front-end code
-app.use('/', express.static('static'));
+app.use('/', express.static('static/dist/angular-schedule-maker'));
 
 app.use('/api', router)
 

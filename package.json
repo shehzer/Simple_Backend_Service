@@ -23,6 +23,7 @@
     "express-autosanitizer": "^1.0.2",
     "express-sanitizer": "^1.0.5",
     "lowdb": "^1.0.0",
+    "mime-db": "^1.45.0",
     "mongoose": "^5.10.11",
     "nodemon": "^2.0.6"
   }
